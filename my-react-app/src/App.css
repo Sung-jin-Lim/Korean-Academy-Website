@@ -24,3 +24,15 @@
 .blue {
   color: #1e90ff;
 }
+
+hr {
+  border: 1px solid #1e90ff;
+}
+
+.slick-slider {
+  width: 100%;
+  overflow: hidden;
+}
+/* .second-page {
+  background-image: url("https://i.ibb.co/hsGxfLK/bgwhite.png"); 
+} */
