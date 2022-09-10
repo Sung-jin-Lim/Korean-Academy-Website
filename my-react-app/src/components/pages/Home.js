@@ -48,8 +48,8 @@ const Home = () => {
         <div className="second-page flex justify-center items-center gap-5 flex-col bg-white w-[100%] px-[100px] text-black py-[200px] ">
           <hr className="relative top-[-5rem] w-[50rem]" />
 
-          <div className="flex  items-center gap-10">
-            <h1 className="text-4xl font-bold ">현장 스케치</h1>
+          <div className="flex  items-center gap-10 ">
+            <h1 className="text-4xl font-bold flex flex-nowrap nowrap">현장 스케치</h1>
             <span className="blue text-3xl">||</span>
             초월 인테리어는 고객의 마음을 사로잡는 독보적인 인테리어를 선보이고 있습니다
           </div>
