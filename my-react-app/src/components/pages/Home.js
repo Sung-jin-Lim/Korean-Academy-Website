@@ -46,7 +46,7 @@ const Home = () => {
       </div>
       <div>
         <div className="second-page flex justify-center items-center gap-5 flex-col bg-white w-[100%] px-[100px] text-black py-[200px] ">
-          <hr className="relative top-[-5rem] w-[50rem]" />
+          <hr className="relative top-[-5rem] w-[50%]" />
 
           <div className="flex  items-center gap-10 ">
             <h1 className="text-4xl font-bold flex flex-nowrap nowrap">현장 스케치</h1>
@@ -55,7 +55,7 @@ const Home = () => {
           </div>
           <br />
           <Carousel />
-          <hr className="relative top-[5rem] w-[50rem]" />
+          <hr className="relative top-[5rem] w-[50%]" />
         </div>
       </div>
 
@@ -84,7 +84,7 @@ const Home = () => {
       </div>
 
       <div className="third br-2 px-[100px] py-[200px] bg-white text-black flex  justify-center items-center flex-col ">
-        <hr className="relative top-[-5rem] w-[50rem]" />
+        <hr className="relative top-[-5rem] w-[50%]" />
         <div className="flex gap-[5rem] w-[100%] justify-center w-[100%]">
           <img
             className="w-[50%] max-w-[700px] h-[auto]"
@@ -111,7 +111,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <hr className="relative top-[5rem] w-[50rem]" />
+        <hr className="relative top-[5rem] w-[50%]" />
       </div>
       <Footer />
     </div>
