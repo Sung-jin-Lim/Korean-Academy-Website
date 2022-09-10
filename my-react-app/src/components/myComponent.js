@@ -17,37 +17,37 @@ export default function SimpleSlider() {
     <Slider {...settings}>
       <div>
         <img
-          src="http://chowol0592.dwebs1.kr/theme/business/extend/contents/chowol_c1/img/c1_img1.jpg"
+          src="/interior.jpg"
           alt="asdasd"
         />
       </div>
       <div>
         <img
-          src="http://chowol0592.dwebs1.kr/theme/business/extend/contents/chowol_c1/img/c1_img2.jpg"
+          src="/interior.jpg"
           alt="asda"
         />
       </div>
       <div>
         <img
-          src="http://chowol0592.dwebs1.kr/theme/business/extend/contents/chowol_c1/img/c1_img3.jpg"
+          src="/interior.jpg"
           alt="asdads"
         />
       </div>
       <div>
         <img
-          src="http://chowol0592.dwebs1.kr/theme/business/extend/contents/chowol_c1/img/c1_img1.jpg"
+          src="/interior.jpg"
           alt="asd"
         />
       </div>
       <div>
         <img
-          src="http://chowol0592.dwebs1.kr/theme/business/extend/contents/chowol_c1/img/c1_img1.jpg"
+          src="/interior.jpg"
           alt="asdas"
         />
       </div>
       <div>
         <img
-          src="http://chowol0592.dwebs1.kr/theme/business/extend/contents/chowol_c1/img/c1_img1.jpg"
+          src="/interior.jpg"
           alt="asdasd"
         />
       </div>
