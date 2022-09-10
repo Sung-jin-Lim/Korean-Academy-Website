@@ -6,12 +6,16 @@ import { useLocation } from "react-router-dom";
 
 // create state
 const Layout = () => {
+  const location = useLocation();
+
+  const [state, setState] = useState(location.pathname !== "/");
+
   function HeaderView() {
     const location = useLocation();
     console.log(location.pathname);
-    return location.pathname !== "/";
+    // return location.pathname !== "/";
+    setState(location.pathname !== "/");
   }
-  const [state, setState] = useState(HeaderView());
 
   // setstate to heaverView value whenever route changes\
 
