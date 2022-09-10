@@ -45,29 +45,41 @@ const Home = () => {
         {/* <button className="bg-white px-4 py-3 text-black">dasd</button> */}
       </div>
       <div>
-        <div className="second-page flex justify-center items-center gap-10 flex-col bg-white w-[100%] px-[100px] text-black py-[200px] ">
+        <div className="second-page flex justify-center items-center gap-5 flex-col bg-white w-[100%] px-[100px] text-black py-[200px] ">
           <hr className="relative top-[-5rem] w-[50rem]" />
 
           <div className="flex  items-center gap-10">
-            <h1 className="text-4xl font-bold">현장 스케치</h1>
+            <h1 className="text-4xl font-bold ">현장 스케치</h1>
             <span className="blue text-3xl">||</span>
             초월 인테리어는 고객의 마음을 사로잡는 독보적인 인테리어를 선보이고 있습니다
           </div>
+          <br />
           <Carousel />
           <hr className="relative top-[5rem] w-[50rem]" />
         </div>
       </div>
 
       <div className="fourth flex-row flex w-[100%] text-white font-bold ">
-        <div className="bg-[#1e90ff] px-[80px] py-[120px] w-[50%] flex gap-10 flex-col bg-[url('https://i.postimg.cc/9Q51Tygr/bluebg.jpg')]">
-          <h3 className="text-2xl">COUNSELING</h3>
-          <h1 className="text-4xl">성공적인 창업을 원하신다면 ?</h1>
-          <button className="bg-white px-4 py-3 text-black w-[50%]">전화문의</button>
+        <div className="bg-[#1e90ff] px-[80px] py-[150px] w-[50%] flex gap-10 flex-col bg-[url('https://i.postimg.cc/9Q51Tygr/bluebg.jpg')]">
+          <div className="flex items-center gap-4">
+            <h3 className="text-[30px] text-white/50">COUNSELING</h3>{" "}
+            <img src="/desk.png" alt="" className="h-12" />
+          </div>
+          <h1 className="text-[40px]">성공적인 창업을 원하신다면 ?</h1>
+          <button className="bg-white px-4 py-5 text-[#1e90ff] w-[50%] rounded text-xl">
+            창업상담 바로가기
+          </button>
         </div>
-        <div className="bg-black px-[80px] py-[120px] w-[50%] flex gap-10 flex-col bg-[url('https://i.ibb.co/Fxmndkr/PMERhy-Wn-4x.jpg')]">
-          <h3 className="text-2xl">PRICING</h3>
-          <h1 className="text-4xl">성공적인 창업을 원하신다면 ?</h1>
-          <button className="bg-white px-4 py-3 text-black w-[50%] ">전화문의</button>
+        <div className="bg-black px-[80px] py-[150px] w-[50%] flex gap-10 flex-col bg-[url('https://i.ibb.co/Fxmndkr/PMERhy-Wn-4x.jpg')]">
+          <div className="flex items-center gap-4">
+            <h3 className="text-3xl text-white/50">PRICING</h3>
+            <img src="/money.png" alt="" className="h-12" />
+          </div>
+
+          <h1 className="text-[40px]">성공적인 창업을 원하신다면 ?</h1>
+          <button className="bg-white px-4 py-5 text-black w-[50%] rounded text-xl   ">
+            전화문의
+          </button>
         </div>
       </div>
 
@@ -83,16 +95,17 @@ const Home = () => {
             <h1 className="text-4xl font-bold">문의 안내</h1>
 
             <div className="mt-[3rem]">
-              대통령은 국가의 원수이며, 제1항의 해임건의는 국회재적의원 3분의 1 이상의 발의에 의하여
-              국회재적의원 과반수의 찬성이 있어야 한다. 그 재의를 요구할 수 있다, 모든 국민은 신속한
-              재판을 받을 권리를 가진다. 선거에 관한 경비는 법률이 정하는 경우를 제외하고는 정당
-              또는 후보자에게 부담시킬 수 없다, 모든 국민은 신체의 자유를 가진다. 제1항의 지시를
-              받은 당해 행정기관은 이에 응하여야 한다. 1차에 한하여 중임할 수 있다.
+              계좌안내 입니다: 우리은행 101 07 184621 / 김상백 /
+              <br />
+              학원 전화번호: 031 - 705 -7562 , 대표강사: 010 7741 4847
+              <br />
+              대표강사 카톡 아이디 : kisa4847,
+              <br />
+              대표강사 이메일 :kisa4847@nate.com
             </div>
 
             <div className="flex gap-[2rem] mt-[3rem] font-bold">
-              <button className="bg-black px-4 py-3 text-white">전화문의</button>
-              <button className="bg-black px-4 py-3 text-white">상담신청</button>
+              <button className="bg-black px-4 py-3 text-[white] w-[100%]">상담신청</button>
             </div>
           </div>
         </div>

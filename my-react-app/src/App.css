@@ -33,6 +33,7 @@ hr {
   width: 100%;
   overflow: hidden;
 }
-/* .second-page {
-  background-image: url("https://i.ibb.co/hsGxfLK/bgwhite.png"); 
-} */
+
+.slick-slide > div {
+  margin: 0 10px;
+}
