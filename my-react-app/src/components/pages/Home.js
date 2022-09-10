@@ -66,7 +66,7 @@ const Home = () => {
             <img src="/desk.png" alt="" className="h-12" />
           </div>
           <h1 className="text-[40px]">성공적인 창업을 원하신다면 ?</h1>
-          <button className="bg-white px-4 py-5 text-[#1e90ff] w-[50%] rounded text-xl">
+          <button className="transition ease-in-out hover:bg-black hover:text-white bg-white px-4 py-5 text-[#1e90ff] w-[50%] rounded text-xl">
             창업상담 바로가기
           </button>
         </div>
@@ -77,7 +77,7 @@ const Home = () => {
           </div>
 
           <h1 className="text-[40px]">성공적인 창업을 원하신다면 ?</h1>
-          <button className="bg-white px-4 py-5 text-black w-[50%] rounded text-xl   ">
+          <button className="transition ease-in-out hover:bg-black hover:text-white bg-white px-4 py-5 text-black w-[50%] rounded text-xl   ">
             전화문의
           </button>
         </div>
@@ -85,13 +85,13 @@ const Home = () => {
 
       <div className="third br-2 px-[100px] py-[200px] bg-white text-black flex  justify-center items-center flex-col ">
         <hr className="relative top-[-5rem] w-[50rem]" />
-        <div className="flex gap-[5rem] w-[100%]">
+        <div className="flex gap-[5rem] w-[100%] justify-center w-[100%]">
           <img
-            className="w-[700px] h-[auto]"
+            className="w-[50%] max-w-[700px] h-[auto]"
             src="https://mblogthumb-phinf.pstatic.net/MjAxODA0MTdfMjMx/MDAxNTIzOTUxMDYzOTcw.ACSyxjClNuUscoO7CdlcL8sVXbKDMHhgOT7k9mv173Ig.khqK1jkSd-9mT1gDWziM4WfnI5Epos1AK_S1S-S7-x8g.JPEG.hangagan/20180412_163843.jpg?type=w800"
             alt=""
           />
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center align max-w-[500px] w-[50%]">
             <h1 className="text-4xl font-bold">문의 안내</h1>
 
             <div className="mt-[3rem]">
@@ -105,7 +105,9 @@ const Home = () => {
             </div>
 
             <div className="flex gap-[2rem] mt-[3rem] font-bold">
-              <button className="bg-black px-4 py-3 text-[white] w-[100%]">상담신청</button>
+              <button className="bg-black px-4 py-3 text-[white] w-[100%] max-w-[20rem]">
+                상담신청
+              </button>
             </div>
           </div>
         </div>
