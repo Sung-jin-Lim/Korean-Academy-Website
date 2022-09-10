@@ -28,7 +28,6 @@ const Layout = () => {
           <div className="w-full">
             <ul className="flex-row flex gap-8  w-full items-center">
               <Link to="/" className="mr-auto text-xl  text-white">
-                <img src="https://www.hanyang.ac.kr/" alt="" />
                 스카이 명문 학원
               </Link>
               <Link to="/about">학원소개</Link>
