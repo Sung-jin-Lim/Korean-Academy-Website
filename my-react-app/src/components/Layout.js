@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import { memo } from "react";
+import { memo, useEffect } from "react";
 // import state
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
@@ -10,11 +10,15 @@ const Layout = () => {
 
   const [state, setState] = useState(location.pathname !== "/");
 
+
+
   function HeaderView() {
     const location = useLocation();
     console.log(location.pathname);
     // return location.pathname !== "/";
-    setState(location.pathname !== "/");
+    useEffect(() => {
+      setState(location.pathname !== "/");
+    }, []);
   }
 
   // setstate to heaverView value whenever route changes\

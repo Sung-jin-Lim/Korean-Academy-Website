@@ -4,7 +4,7 @@ import Footer from "../Footer";
 import React from "react";
 import Carousel from "../myComponent";
 
-const Home = () => {
+const Login2 = () => {
   return (
     <div className="home absolute top-0 z-[-20] w-[100%]">
       <div className="firstpage   z-0 flex justify-center items-center flex-col overflow-hidden">
@@ -118,4 +118,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Login2;
