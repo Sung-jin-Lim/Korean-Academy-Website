@@ -4,6 +4,7 @@ import Footer from "../Footer";
 import React from "react";
 import Carousel from "../myComponent";
 
+
 const Home = () => {
   return (
     <div className="home absolute top-0 z-[-20] w-[100%]">
