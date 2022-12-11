@@ -9,8 +9,8 @@ import Home from "./components/pages/Home";
 import Layout from "./components/Layout";
 import NoPage from "./components/pages/NoPage";
 import Reset from "./components/pages/Reset";
-import Register from "./components/pages/Register";
-import Dashboard from "./components/pages/Dashboard";
+// import Register from "./components/pages/Register";
+// import Dashboard from "./components/pages/Dashboard";
 
 export default function App() {
   return (
@@ -23,8 +23,8 @@ export default function App() {
           <Route path="login" element={<Login />} />
           {/* <Route path="*" element={<NoPage />} /> */}
           <Route path="reset" element={<Reset />} />
-          <Route path="register" element={<Register />} />
-          <Route path="dashboard" element={<Dashboard />} />
+          {/* <Route path="register" element={<Register />} /> */}
+          {/* <Route path="dashboard" element={<Dashboard />} /> */}
         </Route>
       </Routes>
     </BrowserRouter>
