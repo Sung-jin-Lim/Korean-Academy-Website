@@ -58,7 +58,7 @@ const Layout = () => {
               }
 
 
-              {user && <img src={user.photoURL} alt="logo" className="w-10 h-10 rounded-full border-solid border-2 border-white " referrerpolicy="no-referrer" />}
+              {user && <img src={user.photoURL} alt="logo" className="w-10 h-10 rounded-full border-solid border-2 border-white " referrerPolicy="no-referrer" />}
             </ul>
           </div>
         </nav>
