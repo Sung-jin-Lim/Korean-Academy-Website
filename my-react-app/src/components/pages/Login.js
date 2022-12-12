@@ -1,49 +1,24 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { auth, signInWithEmailAndPassword, signInWithGoogle } from "../../firebase";
+import { auth } from "../../firebase";
+import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { useAuthState } from "react-firebase-hooks/auth";
 import "./Login.css";
 function Login() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [user, loading, error] = useAuthState(auth);
-  const navigate = useNavigate();
-  useEffect(() => {
-    if (loading) {
-      // maybe trigger a loading screen
-      return;
-    }
-    if (user) navigate("/dashboard");
-  }, [user, loading]);
+  const googleProvider = new GoogleAuthProvider();
+  const googleLogin = async () => {
+    try {
+      const result = await signInWithPopup(auth, googleProvider);
+      console.log(result);
+    } catch (error) {}
+  };
+
   return (
-    <div className="login">
+    <div className="login bg-[url('https://i.ibb.co/Fxmndkr/PMERhy-Wn-4x.jpg')]">
       <div className="login__container">
-        <input
-          type="text"
-          className="login__textBox"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          placeholder="E-mail Address"
-        />
-        <input
-          type="password"
-          className="login__textBox"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          placeholder="Password"
-        />
-        <button className="login__btn" onClick={() => signInWithEmailAndPassword(email, password)}>
-          Login
-        </button>
-        <button className="login__btn login__google" onClick={signInWithGoogle}>
+        <button className="login__btn login__google px-8 " onClick={googleLogin}>
           Login with Google
         </button>
-        <div>
-          <Link to="/reset">Forgot Password</Link>
-        </div>
-        <div>
-          Don't have an account? <Link to="/register">Register</Link> now.
-        </div>
       </div>
     </div>
   );
